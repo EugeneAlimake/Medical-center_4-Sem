@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17474718-E28F-4445-8EAA-9BF4C2A58F37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Medical_center_Lifeline</RootNamespace>
+    <AssemblyName>Medical center-Lifeline</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>heand.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Maps.MapControl.WPF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Maps.MapControl.WPF.1.0.0.3\lib\net40-Client\Microsoft.Maps.MapControl.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=20.1460.0.51, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.20.1.0.51\lib\net46\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfMaps.WPF, Version=20.1460.0.51, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfMaps.WPF.20.1.0.51\lib\net46\Syncfusion.SfMaps.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.WPF, Version=20.1460.0.51, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Shared.WPF.20.1.0.51\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AllOrder.xaml.cs">
+      <DependentUpon>AllOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteDoctor.xaml.cs">
+      <DependentUpon>DeleteDoctor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Deleteprosedurec.xaml.cs">
+      <DependentUpon>Deleteprosedurec.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\AppViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="Windows\Aboutas.xaml.cs">
+      <DependentUpon>Aboutas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\AddReviews.xaml.cs">
+      <DependentUpon>AddReviews.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\AddTalon.xaml.cs">
+      <DependentUpon>AddTalon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\allDoctor.xaml.cs">
+      <DependentUpon>allDoctor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\allprocedures.xaml.cs">
+      <DependentUpon>allprocedures.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Clients.cs" />
+    <Compile Include="Classes\Coupon.cs" />
+    <Compile Include="Classes\Doctor.cs" />
+    <Compile Include="Classes\Order.cs" />
+    <Compile Include="Classes\Procedures.cs" />
+    <Compile Include="Classes\Review.cs" />
+    <Compile Include="Classes\schedule.cs" />
+    <Compile Include="Classes\Spezialization.cs" />
+    <Compile Include="Corser_projectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Corser_projectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\Createorder.xaml.cs">
+      <DependentUpon>Createorder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\Admin.cs" />
+    <Compile Include="Windows\Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MainLifeLine.xaml.cs">
+      <DependentUpon>MainLifeLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MessangeBox_Ok.xaml.cs">
+      <DependentUpon>MessangeBox_Ok.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\Profil.xaml.cs">
+      <DependentUpon>Profil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\Registration.xaml.cs">
+      <DependentUpon>Registration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\RegistrationofDoctor.xaml.cs">
+      <DependentUpon>RegistrationofDoctor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\RegistrationofProcedures.xaml.cs">
+      <DependentUpon>RegistrationofProcedures.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Reviews.xaml.cs">
+      <DependentUpon>Reviews.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\Yourorder.xaml.cs">
+      <DependentUpon>Yourorder.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AllOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeleteDoctor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Deleteprosedurec.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Aboutas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForUser\AddReviews.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForAdmin\AddTalon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\allDoctor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\allprocedures.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForUser\Createorder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForUser\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MainLifeLine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForUser\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Windows\MessangeBox_Ok.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForUser\Profil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForUser\Registration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForAdmin\RegistrationofDoctor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForAdmin\RegistrationofProcedures.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Reviews.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForUser\Yourorder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Corser_projectDataSet.xsc">
+      <DependentUpon>Corser_projectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Corser_projectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Corser_projectDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Corser_projectDataSet.xss">
+      <DependentUpon>Corser_projectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\врачи 2.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\passport %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\premium-icon-mail-3153442.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Plugin icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\woman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\drugs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\doctor2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\image 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\timetable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\place.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\smartphone %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Profile banner - 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Plugin icon - 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\hospital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Наши врачи.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\fountain-pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\recycling-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\bin %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\injection.png" />
+    <Resource Include="image\media.png" />
+    <Resource Include="image\no.png" />
+    <Resource Include="image\passport %281%29.png" />
+    <Resource Include="image\passport %282%29.png" />
+    <Resource Include="image\passport.png" />
+    <Resource Include="image\phone.png" />
+    <Resource Include="image\pin.png" />
+    <Resource Include="image\smartphone.png" />
+    <Resource Include="image\yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\doctors.jpg" />
+    <Resource Include="image\heand.png" />
+    <Resource Include="image\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\work.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\studying.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\policy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\price-tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\doctor %281%29.png" />
+    <Resource Include="image\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\pen-tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\communication.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\dialogue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ForUser\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="heand.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ticket.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

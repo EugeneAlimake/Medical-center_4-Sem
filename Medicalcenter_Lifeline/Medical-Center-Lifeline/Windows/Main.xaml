@@ -1,0 +1,48 @@
+﻿<Page x:Class="Medical_center_Lifeline.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Medical_center_Lifeline"
+      mc:Ignorable="d" 
+      d:DesignHeight="823" d:DesignWidth="1013"
+      Title="Main">
+
+    <Grid  Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="69"/>
+            <RowDefinition Height="398*"/>
+            <RowDefinition Height="356"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="463"/>
+                <ColumnDefinition Width="145.6"/>
+                <ColumnDefinition Width="404"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="Ordercreate" Click="Place_Click"  Style="{StaticResource Button_gray_big}" Height="87.2" Width="0"  Content="Записаться на прием" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Margin="48.8,24,73.8,245" Grid.ColumnSpan="2" />
+            <Image Width="104.8" Height="104.8"  Source="/image/timetable.png" Grid.Column="1" Margin="19.8,16,20.8,235" MouseDown="Place_Click"/>
+            <Button Click="Place1_Click"  Style="{StaticResource Button_blue_big}" Height="87.2" Width="0" x:Name="Place2" Content="г.Минск, ул.Маяковского 21" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Margin="48.8,134,73.8,135" Grid.ColumnSpan="2" />
+            <Button Click="Place1_Click"  Style="{StaticResource Button_darkblue_big}" Height="87.2" Width="0" x:Name="Place1"  Content="+375(33)-383-41-14" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Margin="48.8,252,73.8,17" Grid.ColumnSpan="2" />
+            <Image  Width="104.8" Height="104.8"  Grid.Column="1" Source="/image/place.png" MouseDown="Image_MouseDown"/>
+            <Image Width="104.8" Height="104.8"   Grid.Column="1"  Source="/image/smartphone (1).png" Margin="19.8,241,20.8,10"  MouseDown="Image_MouseDown"/>
+            <Button Click="Allorder_Click"   Style="{StaticResource Button_foradmins}"  Height="90" Width="0" x:Name="Allorder" Background="#B6F9FF" Content="Просмотреть заказы" RenderTransformOrigin="0.5,0.5" Margin="20,247,43.2,14" />
+            <Image Name="foradmin" Width="104.8" Height="104.8"  Source="/image/ticket.png" Margin="5,241,354.2,11"  MouseDown="foradmin_MouseDown"/>
+        </Grid>
+
+        <TextBlock Style="{StaticResource Textgrey}" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Ваше здоровье - наша забота" VerticalAlignment="Center" FontSize="36" Width="496" Grid.Row="0" Height="43"/>
+
+
+        <Image Margin="0,0.2,-0.2,0.2" Source="/image/image 1.png" Grid.Row="1" Grid.ColumnSpan="2" Stretch="UniformToFill" />
+
+
+
+
+    </Grid>
+</Page>
