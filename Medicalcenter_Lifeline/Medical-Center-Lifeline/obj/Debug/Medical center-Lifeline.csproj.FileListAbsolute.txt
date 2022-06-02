@@ -1,0 +1,64 @@
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Medical center-Lifeline.exe.config
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Medical center-Lifeline.exe
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Medical center-Lifeline.pdb
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\App.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline_MarkupCompile.cache
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline_MarkupCompile.lref
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline.g.resources
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical_center_Lifeline.Properties.Resources.resources
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline.csproj.GenerateResource.cache
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline.csproj.CoreCompileInputs.cache
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline.exe
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline.pdb
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Style.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\App.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Syncfusion.SfMaps.WPF.dll
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Syncfusion.Shared.WPF.dll
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Syncfusion.SfMaps.WPF.xml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Syncfusion.Shared.WPF.xml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline.csproj.CopyComplete
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForAdmin\AddTalon.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForAdmin\AddTalon.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForAdmin\RegistrationofDoctor.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForAdmin\RegistrationofProcedures.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForAdmin\RegistrationofDoctor.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForAdmin\RegistrationofProcedures.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\AddReviews.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Profil.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Registration.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\AddReviews.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Profil.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Registration.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\Aboutas.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\Aboutas.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\allDoctor.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\allprocedures.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Createorder.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Login.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\Main.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\MainLifeLine.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\MessangeBox_Ok.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Yourorder.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\allDoctor.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\allprocedures.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Createorder.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Login.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\Main.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\MainLifeLine.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\MessangeBox_Ok.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\ForUser\Yourorder.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\Reviews.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Windows\Reviews.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\MainWindow.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\MainWindow.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Deleteprosedurec.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Deleteprosedurec.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\AllOrder.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\AllOrder.baml
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\Medical center-Lifeline.csproj.AssemblyReference.cache
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\DeleteDoctor.g.cs
+C:\Users\thesi\Desktop\КП\Medical center-Lifeline\Medical center-Lifeline\obj\Debug\DeleteDoctor.baml
